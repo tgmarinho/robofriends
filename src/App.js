@@ -35,7 +35,7 @@ class App extends Component {
           })
 
           if(this.state.robots.length === 0 ){
-              return <h1>Loadin</h1>
+              return <h1>Loading</h1>
           } else {
             return (
                 <div className='tc'>
